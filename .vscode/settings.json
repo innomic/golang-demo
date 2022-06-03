@@ -1,0 +1,11 @@
+{
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+  },
+}
