@@ -1,10 +1,14 @@
 # golang-demo
 
+Golang Playground
+
 ## Installation
 
+### GVM
+
+https://github.com/moovweb/gvm
+
 ```
-brew install go
-brew install gopls
-brew install delve
-brew install staticcheck
+$ gvm install go1.19.5
+$ gvm use go1.19.5 --default
 ```

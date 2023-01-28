@@ -1,11 +1,44 @@
 {
-  "[go]": {
-    "editor.defaultFormatter": "golang.go",
-  },
+  "editor.formatOnSave": true,
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "go.testFlags": [
+    "-v",
+    "-short"
+  ],
+  "go.testEnvFile": "${workspaceFolder}/test/.env",
+  "files.associations": {
+    "*.json": "json",
+    "config.yaml.example": "yaml"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/node_modules": true,
+    "**/build": true,
+    "**/target": true,
+    "**/tmp": true
+  },
+  "explorerExclude.backup": {},
+  "npm.scriptExplorerExclude": [
+    "install"
+  ],
+  "editor.rulers": [
+    100
+  ]
 }
